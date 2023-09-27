@@ -1,0 +1,421 @@
+html { 
+    scroll-behavior: smooth;
+ }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 150px;
+    padding-top: 10px;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-image: url(images/pexels-marek-piwnicki-6898446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(1000, 1100, 200, -0.52);
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+}
+nav{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inherit;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 40px;
+    height: 10px;
+    padding: 0px;
+    background: rgb(216,0,0);
+    border: 0;
+    border-radius: 10px;
+
+}
+.carousel-indicators .active{
+    width: 50px;
+}
+.carouselImg{
+    border-radius: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.btn-primary{
+    padding: 10px 25px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s linear;
+}
+.btn-primary:hover{
+    background: rgb(216,0,0);
+    background: radial-gradient(circle, rgba(216,0,0,1) 27%, rgba(253,187,45,1) 94%);
+    color: whitesmoke;
+}
+
+
+
+.hero{
+    padding: 100px 0 120px 0;
+    text-align: center;
+}
+.hero h1{
+    font-weight: 700;
+    letter-spacing: 60px;
+    font-size: 100px;
+    font-family: math;
+    padding-top: 40px;
+}
+.hero p{
+    line-height: 70px;
+    letter-spacing: 25px;
+    font-size: 40px;
+    font-family: math;
+    font-weight: 400;
+}
+.heading1{
+    font-family: math;
+    font-size: 50px;
+    font-weight: 600;
+}
+.lungi{
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    width: 100%;
+}
+form{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    padding: 220px 80px;
+    font-weight: 700;
+}
+.details{
+    width: 60%;
+    padding-top: 100px;
+  
+}
+.details img{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 215px;
+    width: 100%;
+ 
+}
+
+.divide{
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-images{
+    border: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card-images:hover{
+    box-shadow: rgba(169, 164, 164, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card-title{
+    font-family: math;
+    font-weight: 600;
+}
+.card-text{
+
+}
+.buy{
+   
+}
+.footer-section{
+    background-image: url(images/pexels-marek-piwnicki-6898446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(1000, 1100, 200, -0.52);
+    background-blend-mode: multiply;    
+}
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    padding: 60px 0 40px 70px;
+}
+.logo-pic{
+    width: 250px;
+    height: auto;
+}
+
+.icon{
+}
+.btn1 {
+    padding: 12px 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s linear;
+
+}
+.btn1:hover{
+    background: rgb(216,0,0);
+    background: radial-gradient(circle, rgba(216,0,0,1) 27%, rgba(253,187,45,1) 94%);
+    color: whitesmoke;
+    
+}
+
+
+.quotes{
+    width: 30%;
+    padding-top: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: cursive;
+}
+.copyright{
+    text-align: end;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+/* mediaquery for mobile */
+/* mediaquery for mobile */
+@media only screen and (max-width: 667px) {
+.container { 
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 150px;
+    padding-top: 10px;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-image: url(images/pexels-marek-piwnicki-6898446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(1000, 1100, 200, -0.52);
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+}
+nav{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.divide{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.hero{
+    text-align: center;
+}
+.hero h1{
+    font-weight: 400;
+    letter-spacing: 25px;
+    font-size: 80px;
+    font-family: math;
+    padding-top: 25px;
+    text-align: center;
+}
+.hero p{
+    line-height: 60px;
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-family: math;
+    font-weight: 400;
+    text-align: center;
+}
+.heading1{
+    font-family: math;
+    font-size: 50px;
+    font-weight: 600;
+}
+.lungi{
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.signup{
+    display: block;
+}
+.form{
+   
+}
+form{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 25px;
+}
+.details{
+    width: 100%;
+    padding-top: 100px;
+}
+.details img{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 215px;
+    width: 100%;
+ 
+}
+.footer-section{
+    background-image: url(images/pexels-marek-piwnicki-6898446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(1000, 1100, 200, -0.52);
+    background-blend-mode: multiply;    
+}
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo{
+    padding: 100px 0;
+    width: 150px;
+}
+.logo-pic{
+    width: 250px;
+    height: auto;
+}
+
+
+.quotes{
+    width: 65%;
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: cursive;
+}
+.westwood{
+    padding: 10px;
+}
+.copyright{
+    text-align: end;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+}
+
+   /* mediaquery for mobile large */
+
+@media only screen and (min-width: 667px) and (max-width: 991px) {
+.container {
+    width: 100%;
+    }
+    .card{
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    }
+    .signup{
+        display: block;
+    }
+    .form{
+       
+    }
+    form{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 10px;
+        font-weight: 700;
+        padding: 25px;
+    }
+    .details{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .details img{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 215px;
+        width: 100%;
+     
+    }
+    }
+
+/* mediaquery for medium device */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .container { 
+      width: 100%; 
+  }
+.card{
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    }
+.divide{
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .signup{
+        display: block;
+    }
+    .form{
+       
+    }
+    form{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 10px;
+        font-weight: 700;
+        padding: 25px;
+    }
+    .details{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .details img{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 215px;
+        width: 100%;
+     
+    }
+}
+
+/* mediaquery for large */
+@media only screen and (min-width: 1025px){
+    .container { 
+      width: 100%; 
+  }
+}
